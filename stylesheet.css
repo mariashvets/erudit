@@ -1,0 +1,126 @@
+ul,li,p,div {
+  margin:0;
+  padding:0;
+}
+.wrapper {
+  width:500px;
+  height:700px;
+  position:relative;
+  left:36%;
+}
+table {
+  width:100%;
+  height:500px;
+}
+table,tr,td {
+  border:solid 1px black;
+}
+.play-field tr td{
+width: 50px;
+height: 30px;
+padding: 0;
+text-align: center;
+font-weight: bold;
+text-transform: uppercase;
+}
+.play-field tr td.bonus-word3{
+  background: red;
+}
+.play-field tr td.bonus-word2{
+  background: blue;
+}
+.play-field tr td.bonus-letter2{
+  background: green;
+}
+.play-field tr td.bonus-letter3{
+  background: yellow;
+}
+.play-field tr td.filled{
+  background: grey;
+}
+
+
+.game_info {
+  width:100%;
+  height:150px;
+  margin:20px 0 0 0;
+}
+.current_score {
+    position:absolute;
+    right:43%;
+}
+.players_info,.my_letters,.all_letters{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.players_info .player_1,.players_info .player_2 {
+    display:block;
+    width:100%;
+    height:75px;
+    background: green;
+}
+
+.players_info .active{
+  background: red;
+}
+.players_info  .total_scores,.players_info p{
+  display:inline-block;
+  height:100%;
+}
+.players_info p {
+ width:40px;
+}
+.players_info .player_1 .total_scores,.players_info .player_2 .total_scores {
+  width:75px;
+  height:100%;
+  float:right;
+  border-left:solid 1px black;
+}
+.all_letters,.players_info{
+  width:120px;
+  height:100%;
+}
+
+.my_letters table {
+  width:250px;
+  height:65px;
+}
+.my_letters td {
+  width:30px;
+  height:30px;
+}
+.all_letters {
+  border:solid 1px black;
+}
+.if_star_chosen {
+    position:relative;
+    top:20px;
+    left:20%;
+    width:300px;
+    height:170px;
+}
+.if_star_chosen div{
+    width:35px;
+    height:30px;
+    border:solid 1px black;
+    display:inline-block;
+    float:left;
+    background:yellow;
+    text-align: center;
+}
+
+.bonus-word3{
+  background: red;
+}
+.bonus-word2{
+  background: blue;
+}
+.bonus-letter2{
+  background: green;
+}
+.bonus-letter3{
+  background: yellow;
+}
+.green {
+  background: green;
+}
